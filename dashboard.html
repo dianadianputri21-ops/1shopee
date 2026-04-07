@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+</head>
+<body>
+  <h2>Total Klik:</h2>
+  <h1 id="klik">0</h1>
+
+  <script>
+    let total = localStorage.getItem("klik") || 0;
+    document.getElementById("klik").innerText = total;
+  </script>
+</body>
+</html>
